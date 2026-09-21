@@ -147,11 +147,3 @@ Try these test cases in the UI:
 - **Version Awareness**: Organizations must verify current framework versions for formal compliance reporting.
 - **Strict Evidence Grounding**: Recommendations are strictly derived from retrieved text.
 
----
-
-## 11. 5-Minute Pitch for Cybersecurity Experts
-> *"CyberGRC solves a major pain point in security auditing: rapidly mapping raw audit findings to authoritative controls like NIST SP 800-53, CIS v8, and CSA CCM without LLM hallucination.*
->
-> *Unlike slow systems that re-embed data on every query or rely on unverified model knowledge, CyberGRC uses a pre-indexed ChromaDB vector store powered by `all-MiniLM-L6-v2`. Retrieval happens in under 50 milliseconds directly on CPU.*
->
-> *Crucially, CyberGRC enforces a strict evidence relevance threshold. If a query like 'chocolate cake' or an out-of-scope statement is entered, the system refuses to answer rather than fabricating fake control numbers. Every recommendation displayed is directly cited against real GRC framework controls."*
